@@ -37,12 +37,12 @@ public class Isomorphic {
                 if (!firstMap.containsKey(sChar) && !secondMap.containsKey(tChar)) {
                     firstMap.put(sChar, tChar);
                     secondMap.put(tChar, sChar);
+                } else if (!firstMap.containsKey(sChar)|| !secondMap.containsKey(tChar)||firstMap.get(sChar)!=tChar || secondMap.get(tChar) != sChar) {
+                    return false;
                 }
             }
             return true;
         }
-
-
         return false;
     }
 }

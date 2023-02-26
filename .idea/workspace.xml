@@ -32,15 +32,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/cynos/IdeaProjects/alen"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/cynos/IdeaProjects/alen&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.IsomorphicTest.testStringWithSameFrequencyAndDifferentOccurrence">
+    <configuration name="IsomorphicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alen" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IsomorphicTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IsomorphicTest.testStringAllUniqueChars (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alen" />
       <option name="PACKAGE_NAME" value="" />
@@ -56,16 +65,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="IsomorphicTest" />
       <option name="METHOD_NAME" value="testStringAllUniqueChars" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsomorphicTest.testStringIfOneChar (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="alen" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IsomorphicTest" />
-      <option name="METHOD_NAME" value="testStringIfOneChar" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,10 +93,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.IsomorphicTest.testStringWithSameFrequencyAndDifferentOccurrence" />
+        <item itemvalue="JUnit.IsomorphicTest" />
         <item itemvalue="JUnit.IsomorphicTest.testStringWithSameFrequencyAndSameMapping" />
         <item itemvalue="JUnit.IsomorphicTest.testStringAllUniqueChars (1)" />
         <item itemvalue="JUnit.IsomorphicTest.testStringAllUniqueChars" />
-        <item itemvalue="JUnit.IsomorphicTest.testStringIfOneChar (1)" />
       </list>
     </recent_temporary>
   </component>
