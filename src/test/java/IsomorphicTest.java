@@ -7,6 +7,6 @@ public class IsomorphicTest {
         String stringInput1 = null;
         String stringInput2 = null;
         Isomorphic isomorphic = new Isomorphic();
-        assertEquals(isomorphic.checkIsomorphic(stringInput1, stringInput2));
+        assertEquals(isomorphic.checkIsomorphic(stringInput1, stringInput2), false);
     }
 }
