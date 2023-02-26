@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b50ce3-ee6c-4224-9edb-49f4fcf08780" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Isomorphic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Isomorphic.java" afterDir="false" />
-    </list>
+    <list default="true" id="53b50ce3-ee6c-4224-9edb-49f4fcf08780" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,18 +36,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.IsomorphicTest.testStringDiffLength">
+  <component name="RunManager" selected="JUnit.IsomorphicTest.testStringIfEqual">
     <configuration name="IsomorphicTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alen" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IsomorphicTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsomorphicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CSCI_5308_Group_21_Assignment_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="IsomorphicTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -63,6 +51,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="IsomorphicTest" />
       <option name="METHOD_NAME" value="testStringDiffLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsomorphicTest.testStringIfEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alen" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IsomorphicTest" />
+      <option name="METHOD_NAME" value="testStringIfEqual" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IsomorphicTest.testStringIfEqual" />
         <item itemvalue="JUnit.IsomorphicTest.testStringDiffLength" />
         <item itemvalue="JUnit.IsomorphicTest.testStringIsEmpty" />
         <item itemvalue="JUnit.IsomorphicTest.testStringInputIfNull" />
         <item itemvalue="JUnit.IsomorphicTest (1)" />
-        <item itemvalue="JUnit.IsomorphicTest" />
       </list>
     </recent_temporary>
   </component>

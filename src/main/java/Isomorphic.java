@@ -13,6 +13,10 @@ public class Isomorphic {
             return false;
         }
 
+        if(firstString.equals(secondString)){
+            return true;
+        }
+
         return false;
     }
 }
