@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b50ce3-ee6c-4224-9edb-49f4fcf08780" name="Changes" comment="" />
+    <list default="true" id="53b50ce3-ee6c-4224-9edb-49f4fcf08780" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Isomorphic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Isomorphic.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +39,7 @@
     &quot;last_opened_file_path&quot;: &quot;/home/cynos/IdeaProjects/alen&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.IsomorphicTest.testStringWithSameFrequencyAndSameOccurrence">
+  <component name="RunManager" selected="JUnit.IsomorphicTest">
     <configuration name="IsomorphicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alen" />
       <option name="PACKAGE_NAME" value="" />
@@ -89,8 +91,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IsomorphicTest.testStringWithSameFrequencyAndSameOccurrence" />
         <item itemvalue="JUnit.IsomorphicTest" />
+        <item itemvalue="JUnit.IsomorphicTest.testStringWithSameFrequencyAndSameOccurrence" />
         <item itemvalue="JUnit.IsomorphicTest.testStringWithSameFrequencyAndDifferentOccurrence" />
         <item itemvalue="JUnit.IsomorphicTest.testStringWithSameFrequencyAndSameMapping" />
         <item itemvalue="JUnit.IsomorphicTest.testStringAllUniqueChars (1)" />

@@ -15,9 +15,6 @@ public class Isomorphic {
         if (firstString.length() != secondString.length()) {
             return false;
         }
-        else{
-
-        }
 
         if (firstString.equals(secondString)) {
             return true;
@@ -27,22 +24,19 @@ public class Isomorphic {
             return true;
         }
 
-        if(firstString.length() == secondString.length()){
-            Map<Character, Character> firstMap = new HashMap<>();
-            Map<Character, Character> secondMap = new HashMap<>();
+        Map<Character, Character> firstMap = new HashMap<>();
+        Map<Character, Character> secondMap = new HashMap<>();
 
-            for (int i = 0; i < firstString.length(); i++) {
-                char sChar = firstString.charAt(i);
-                char tChar = secondString.charAt(i);
-                if (!firstMap.containsKey(sChar) && !secondMap.containsKey(tChar)) {
-                    firstMap.put(sChar, tChar);
-                    secondMap.put(tChar, sChar);
-                } else if (!firstMap.containsKey(sChar)|| !secondMap.containsKey(tChar)||firstMap.get(sChar)!=tChar || secondMap.get(tChar) != sChar) {
-                    return false;
-                }
+        for (int i = 0; i < firstString.length(); i++) {
+            char sChar = firstString.charAt(i);
+            char tChar = secondString.charAt(i);
+            if (!firstMap.containsKey(sChar) && !secondMap.containsKey(tChar)) {
+                firstMap.put(sChar, tChar);
+                secondMap.put(tChar, sChar);
+            } else if (!firstMap.containsKey(sChar)|| !secondMap.containsKey(tChar)||firstMap.get(sChar)!=tChar || secondMap.get(tChar) != sChar) {
+                return false;
             }
-            return true;
         }
-        return false;
+        return true;
     }
 }
