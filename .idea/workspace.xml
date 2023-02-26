@@ -36,21 +36,22 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.IsomorphicTest.testStringIfEqual">
-    <configuration name="IsomorphicTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="alen" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IsomorphicTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.IsomorphicTest.testStringIfOneChar">
     <configuration name="IsomorphicTest.testStringDiffLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alen" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="IsomorphicTest" />
       <option name="METHOD_NAME" value="testStringDiffLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsomorphicTest.testStringIfEqual (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CSCI_5308_Group_21_Assignment_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IsomorphicTest" />
+      <option name="METHOD_NAME" value="testStringIfEqual" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -66,11 +67,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsomorphicTest.testStringInputIfNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="alen" />
+    <configuration name="IsomorphicTest.testStringIfOneChar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CSCI_5308_Group_21_Assignment_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="IsomorphicTest" />
-      <option name="METHOD_NAME" value="testStringInputIfNull" />
+      <option name="METHOD_NAME" value="testStringIfOneChar" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IsomorphicTest.testStringIfOneChar" />
+        <item itemvalue="JUnit.IsomorphicTest.testStringIfEqual (1)" />
         <item itemvalue="JUnit.IsomorphicTest.testStringIfEqual" />
         <item itemvalue="JUnit.IsomorphicTest.testStringDiffLength" />
         <item itemvalue="JUnit.IsomorphicTest.testStringIsEmpty" />
-        <item itemvalue="JUnit.IsomorphicTest.testStringInputIfNull" />
-        <item itemvalue="JUnit.IsomorphicTest (1)" />
       </list>
     </recent_temporary>
   </component>

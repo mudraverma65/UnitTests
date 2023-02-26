@@ -49,4 +49,16 @@ public class IsomorphicTest {
         Isomorphic isomorphic = new Isomorphic();
         assertEquals(isomorphic.checkIsomorphic(stringInput1, stringInput2), true);
     }
+
+    /**
+     * Checks if the two strings contain only one char
+     * If yes returns true
+     * */
+    @Test
+    public void testStringIfOneChar(){
+        String stringInput1 = "a";
+        String stringInput2 = "b";
+        Isomorphic isomorphic = new Isomorphic();
+        assertEquals(isomorphic.checkIsomorphic(stringInput1, stringInput2), true);
+    }
 }
