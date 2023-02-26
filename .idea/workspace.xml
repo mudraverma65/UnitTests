@@ -39,7 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.IsomorphicTest.testStringInputIfNull">
+  <component name="RunManager" selected="JUnit.IsomorphicTest.testStringIsEmpty">
     <configuration name="IsomorphicTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alen" />
       <option name="PACKAGE_NAME" value="" />
@@ -68,8 +68,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IsomorphicTest.testStringIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alen" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IsomorphicTest" />
+      <option name="METHOD_NAME" value="testStringIsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IsomorphicTest.testStringIsEmpty" />
         <item itemvalue="JUnit.IsomorphicTest.testStringInputIfNull" />
         <item itemvalue="JUnit.IsomorphicTest (1)" />
         <item itemvalue="JUnit.IsomorphicTest" />
