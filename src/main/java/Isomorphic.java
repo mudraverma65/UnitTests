@@ -9,8 +9,8 @@ public class Isomorphic {
             return true;
         }
 
-        if(firstString.length() != secondString.length()){
-            return false;
+        if(firstString.length() == secondString.length()){
+            return true;
         }
 
         if(firstString.equals(secondString)){
