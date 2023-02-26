@@ -3,6 +3,6 @@ public class Isomorphic {
         if(firstString==null || secondString==null){
             return false;
         }
-        return true;
+        return false;
     }
 }
