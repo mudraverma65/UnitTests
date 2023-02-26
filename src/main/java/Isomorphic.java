@@ -8,6 +8,11 @@ public class Isomorphic {
         if(firstString.isEmpty()==true && secondString.isEmpty()==true){
             return true;
         }
+
+        if(firstString.length() != secondString.length()){
+            return false;
+        }
+
         return false;
     }
 }
