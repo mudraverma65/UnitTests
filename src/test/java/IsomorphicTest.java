@@ -75,8 +75,8 @@ public class IsomorphicTest {
     }
 
     /**
-     * Checks if the two strings have char frequencies same and each occurrence can be replaced
-     * if yes returns true
+     * Checks if the two strings have char frequencies same and each occurrence cannot be replaced
+     * if yes returns false
      * */
     @Test
     public void testStringWithSameFrequencyAndDifferentOccurrence(){
@@ -84,5 +84,17 @@ public class IsomorphicTest {
         String stringInput2 = "xyyzzz";
         Isomorphic isomorphic = new Isomorphic();
         assertEquals(isomorphic.checkIsomorphic(stringInput1, stringInput2), false);
+    }
+
+    /**
+     * Checks if the two strings for same char frequencies and each occurrence can be replaced
+     * if yes returns true
+     * */
+    @Test
+    public void testStringWithSameFrequencyAndSameOccurrence(){
+        String stringInput1 = "aaabbc";
+        String stringInput2 = "zzzyyx";
+        Isomorphic isomorphic = new Isomorphic();
+        assertEquals(isomorphic.checkIsomorphic(stringInput1, stringInput2), true);
     }
 }
