@@ -9,11 +9,15 @@ public class Isomorphic {
             return true;
         }
 
-        if(firstString.length() == secondString.length()){
-            return true;
+        if(firstString.length() != secondString.length()){
+            return false;
         }
 
         if(firstString.equals(secondString)){
+            return true;
+        }
+
+        if(firstString.length() == 1 && secondString.length()==1){
             return true;
         }
 
