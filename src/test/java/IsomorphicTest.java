@@ -25,4 +25,16 @@ public class IsomorphicTest {
         Isomorphic isomorphic = new Isomorphic();
         assertEquals(isomorphic.checkIsomorphic(stringInput1, stringInput2), true);
     }
+
+    /**
+     * Checks if the string is of same length
+     * if no returns false
+     * */
+    @Test
+    public void testStringDiffLength(){
+        String stringInput1 = "abc";
+        String stringInput2 = "xyzz";
+        Isomorphic isomorphic = new Isomorphic();
+        assertEquals(isomorphic.checkIsomorphic(stringInput1, stringInput2), false);
+    }
 }
