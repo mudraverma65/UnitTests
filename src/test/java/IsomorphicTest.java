@@ -61,4 +61,16 @@ public class IsomorphicTest {
         Isomorphic isomorphic = new Isomorphic();
         assertEquals(isomorphic.checkIsomorphic(stringInput1, stringInput2), true);
     }
+
+    /**
+     * Checks if the two strings are having different chars
+     * If yes returns true
+     * */
+    @Test
+    public void testStringAllUniqueChars(){
+        String stringInput1 = "abcd";
+        String stringInput2 = "zxwy";
+        Isomorphic isomorphic = new Isomorphic();
+        assertEquals(isomorphic.checkIsomorphic(stringInput1, stringInput2), true);
+    }
 }

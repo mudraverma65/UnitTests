@@ -38,12 +38,12 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.IsomorphicTest.testStringIfOneChar (1)">
-    <configuration name="IsomorphicTest.testStringDiffLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="alen" />
+  <component name="RunManager" selected="JUnit.IsomorphicTest.testStringAllUniqueChars">
+    <configuration name="IsomorphicTest.testStringAllUniqueChars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CSCI_5308_Group_21_Assignment_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="IsomorphicTest" />
-      <option name="METHOD_NAME" value="testStringDiffLength" />
+      <option name="METHOD_NAME" value="testStringAllUniqueChars" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IsomorphicTest.testStringAllUniqueChars" />
         <item itemvalue="JUnit.IsomorphicTest.testStringIfOneChar (1)" />
         <item itemvalue="JUnit.IsomorphicTest.testStringIfOneChar" />
         <item itemvalue="JUnit.IsomorphicTest.testStringIfEqual (1)" />
         <item itemvalue="JUnit.IsomorphicTest.testStringIfEqual" />
-        <item itemvalue="JUnit.IsomorphicTest.testStringDiffLength" />
       </list>
     </recent_temporary>
   </component>
