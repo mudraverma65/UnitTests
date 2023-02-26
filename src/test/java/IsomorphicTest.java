@@ -37,4 +37,16 @@ public class IsomorphicTest {
         Isomorphic isomorphic = new Isomorphic();
         assertEquals(isomorphic.checkIsomorphic(stringInput1, stringInput2), false);
     }
+
+    /**
+     * Checks if the two provided strings are equal
+     * If yes returns true
+     * */
+    @Test
+    public void testStringIfEqual(){
+        String stringInput1 = "abc";
+        String stringInput2 = "abc";
+        Isomorphic isomorphic = new Isomorphic();
+        assertEquals(isomorphic.checkIsomorphic(stringInput1, stringInput2), true);
+    }
 }
