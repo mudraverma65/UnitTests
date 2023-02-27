@@ -96,4 +96,21 @@ public class MinQueueTest {
         assertEquals(Integer.valueOf(-1),q1.top());
     }
 
+    /**
+     * Duplicate values at head of queue
+     * */
+
+    @Test
+    void testDuplicate(){
+        MinQueue q1 = new MinQueue();
+        q1.enqueue(8);
+        q1.enqueue(3);
+        q1.enqueue(10);
+        q1.enqueue(3);
+        q1.enqueue(5);
+        assertEquals(Integer.valueOf(3),q1.top());
+        assertEquals(Integer.valueOf(3),q1.dequeue()); //{8,10,3,5}
+        assertEquals(Integer.valueOf(10),q1.top());
+    }
+
 }
