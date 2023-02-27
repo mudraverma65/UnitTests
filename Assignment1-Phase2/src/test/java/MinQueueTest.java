@@ -19,7 +19,8 @@ public class MinQueueTest {
 
     /**
      * Adding an integer in the queue
-     * */
+     *
+     */
     @Test
     void testIntEnqueue(){
         MinQueue q1 = new MinQueue();
