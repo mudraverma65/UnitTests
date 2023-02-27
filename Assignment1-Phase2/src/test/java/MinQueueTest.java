@@ -37,80 +37,80 @@ public class MinQueueTest {
         q1.enqueue(10);
         q1.enqueue(2);
         q1.enqueue(6);
-        assertEquals(Integer.valueOf(2),q1.dequeue());
-        assertEquals(Integer.valueOf(3),q1.dequeue());
+        assertEquals(Integer.valueOf(2), q1.dequeue());
+        assertEquals(Integer.valueOf(3), q1.dequeue());
     }
 
     /**
      * Top on empty queue
-     * */
+     */
 
     @Test
-    void testEmptyTop(){
+    void testEmptyTop() {
         MinQueue q1 = new MinQueue();
-        assertEquals(Integer.valueOf(-1),q1.top());
+        assertEquals(Integer.valueOf(-1), q1.top());
     }
 
     /**
      * Top to get next element
-     * */
+     */
 
     @Test
-    void testTop(){
+    void testTop() {
         MinQueue q1 = new MinQueue();
         q1.enqueue(8);
         q1.enqueue(3);
         q1.enqueue(10);
         q1.enqueue(2);
         q1.enqueue(6);
-        assertEquals(Integer.valueOf(3),q1.top()); //{8,3,10,2,6}
+        assertEquals(Integer.valueOf(3), q1.top()); //{8,3,10,2,6}
     }
 
     /**
      * Calling top after dequeue
-     * */
+     */
 
     @Test
-    void testTopDequeue(){
+    void testTopDequeue() {
         MinQueue q1 = new MinQueue();
         q1.enqueue(8);
         q1.enqueue(3);
         q1.enqueue(10);
         q1.enqueue(2);
         q1.enqueue(6);
-        assertEquals(Integer.valueOf(3),q1.top());
-        assertEquals(Integer.valueOf(2),q1.dequeue()); //{8,3,10,6}
-        assertEquals(Integer.valueOf(3),q1.top());
-        assertEquals(Integer.valueOf(3),q1.dequeue()); //{8,10,6}
-        assertEquals(Integer.valueOf(10),q1.top());
+        assertEquals(Integer.valueOf(3), q1.top());
+        assertEquals(Integer.valueOf(2), q1.dequeue()); //{8,3,10,6}
+        assertEquals(Integer.valueOf(3), q1.top());
+        assertEquals(Integer.valueOf(3), q1.dequeue()); //{8,10,6}
+        assertEquals(Integer.valueOf(10), q1.top());
     }
 
     /**
      * Calling top with only one value in queue
-     * */
+     */
 
     @Test
-    void testOneTop(){
+    void testOneTop() {
         MinQueue q1 = new MinQueue();
         q1.enqueue(8);
-        assertEquals(Integer.valueOf(-1),q1.top());
+        assertEquals(Integer.valueOf(-1), q1.top());
     }
 
     /**
      * Duplicate values at head of queue
-     * */
+     */
 
     @Test
-    void testDuplicate(){
+    void testDuplicate() {
         MinQueue q1 = new MinQueue();
         q1.enqueue(8);
         q1.enqueue(3);
         q1.enqueue(10);
         q1.enqueue(3);
         q1.enqueue(5);
-        assertEquals(Integer.valueOf(3),q1.top());
-        assertEquals(Integer.valueOf(3),q1.dequeue()); //{8,10,3,5}
-        assertEquals(Integer.valueOf(10),q1.top());
+        assertEquals(Integer.valueOf(3), q1.top());
+        assertEquals(Integer.valueOf(3), q1.dequeue()); //{8,10,3,5}
+        assertEquals(Integer.valueOf(10), q1.top());
     }
 
 }
