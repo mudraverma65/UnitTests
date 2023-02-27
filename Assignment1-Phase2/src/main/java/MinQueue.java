@@ -10,7 +10,7 @@ public class MinQueue {
 
     /**
      * Gets the minimum element
-     * */
+     */
     public int dequeue() {
         if (queue == null || queue.size() == 0) {
             return -1;
@@ -30,7 +30,7 @@ public class MinQueue {
 
     /**
      * adds a new element to the queue
-     * */
+     */
     public boolean enqueue(int element) {
         queue.add(element);
         return true;
@@ -38,9 +38,12 @@ public class MinQueue {
 
     /**
      * Returns the second to go element in the queue
-     * */
+     */
     public int top() {
         if (queue == null || queue.size() == 0) {
+            return -1;
+        }
+        if(queue.size() == 1){
             return -1;
         }
         return queue.get(1);
