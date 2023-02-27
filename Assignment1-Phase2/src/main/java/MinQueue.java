@@ -12,13 +12,14 @@ public class MinQueue {
         if (queue == null || queue.size() == 0) {
             return -1;
         }
-        int minimumElement = queue.get(0);;
+        int minimumElement = queue.get(0);
+        ;
         int indexOfMinimumElement = 0;
         for (int i = 0; i < queue.size(); i++) {
-         if(queue.get(i)<minimumElement){
-             minimumElement = queue.get(i);
-             indexOfMinimumElement = i;
-         }
+            if (queue.get(i) < minimumElement) {
+                minimumElement = queue.get(i);
+                indexOfMinimumElement = i;
+            }
         }
         queue.remove(indexOfMinimumElement);
         return minimumElement;
@@ -27,5 +28,12 @@ public class MinQueue {
     public boolean enqueue(int element) {
         queue.add(element);
         return true;
+    }
+
+    public int top() {
+        if (queue == null || queue.size() == 0) {
+            return -1;
+        }
+        return 0;
     }
 }
