@@ -12,7 +12,16 @@ public class MinQueue {
         if (queue == null || queue.size() == 0) {
             return -1;
         }
-        return 0;
+        int minimumElement = queue.get(0);;
+        int indexOfMinimumElement = 0;
+        for (int i = 0; i < queue.size(); i++) {
+         if(queue.get(i)<minimumElement){
+             minimumElement = queue.get(i);
+             indexOfMinimumElement = i;
+         }
+        }
+        queue.remove(indexOfMinimumElement);
+        return minimumElement;
     }
 
     public boolean enqueue(int element) {
