@@ -8,6 +8,9 @@ public class MinQueue {
         queue = new ArrayList<Integer>();
     }
 
+    /**
+     * Gets the minimum element
+     * */
     public int dequeue() {
         if (queue == null || queue.size() == 0) {
             return -1;
@@ -25,11 +28,17 @@ public class MinQueue {
         return minimumElement;
     }
 
+    /**
+     * adds a new element to the queue
+     * */
     public boolean enqueue(int element) {
         queue.add(element);
         return true;
     }
 
+    /**
+     * Returns the second to go element in the queue
+     * */
     public int top() {
         if (queue == null || queue.size() == 0) {
             return -1;
