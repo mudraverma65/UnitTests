@@ -12,7 +12,7 @@ public class MinQueueTest {
      * if the queue is empty returns -1
      */
     @Test
-    void testIntEnqueue()g{
+    void testIntDequeue(){
         MinQueue q1 = new MinQueue();
         assertEquals(Integer.valueOf(-1), q1.dequeue());
     }
