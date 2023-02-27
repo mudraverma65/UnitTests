@@ -3,9 +3,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class MinQueueTest {
-    /**
-     * Adding an integer in the queue
-     * */
 
     /**
      * This test checks if the Queue is empty
