@@ -43,7 +43,7 @@ public class MinQueue {
         if (queue == null || queue.size() == 0) {
             return -1;
         }
-        if(queue.size() == 1){
+        if (queue.size() == 1) {
             return -1;
         }
         return queue.get(1);
