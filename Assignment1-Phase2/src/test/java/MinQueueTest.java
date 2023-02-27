@@ -66,6 +66,25 @@ public class MinQueueTest {
         assertEquals(Integer.valueOf(3),q1.top()); //{8,3,10,2,6}
     }
 
+    /**
+     * Calling top after dequeue
+     * */
+
+    @Test
+    void testTopDequeue(){
+        MinQueue q1 = new MinQueue();
+        q1.enqueue(8);
+        q1.enqueue(3);
+        q1.enqueue(10);
+        q1.enqueue(2);
+        q1.enqueue(6);
+        assertEquals(Integer.valueOf(3),q1.top());
+        assertEquals(Integer.valueOf(2),q1.dequeue()); //{8,3,10,6}
+        assertEquals(Integer.valueOf(3),q1.top());
+        assertEquals(Integer.valueOf(3),q1.dequeue()); //{8,10,6}
+        assertEquals(Integer.valueOf(10),q1.top());
+    }
+
 
 
 
