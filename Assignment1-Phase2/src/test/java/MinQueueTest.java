@@ -85,7 +85,15 @@ public class MinQueueTest {
         assertEquals(Integer.valueOf(10),q1.top());
     }
 
+    /**
+     * Calling top with only one value in queue
+     * */
 
-
+    @Test
+    void testOneTop(){
+        MinQueue q1 = new MinQueue();
+        q1.enqueue(8);
+        assertEquals(Integer.valueOf(-1),q1.top());
+    }
 
 }
