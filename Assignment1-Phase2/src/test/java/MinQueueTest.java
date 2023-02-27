@@ -41,6 +41,16 @@ public class MinQueueTest {
         assertEquals(Integer.valueOf(3),q1.dequeue());
     }
 
+    /**
+     * Top on empty queue
+     * */
+
+    @Test
+    void testEmptyTop(){
+        MinQueue q1 = new MinQueue();
+        assertEquals(Integer.valueOf(-1),q1.top());
+    }
+
 
 
 
