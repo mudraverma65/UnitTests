@@ -25,4 +25,23 @@ public class MinQueueTest {
         MinQueue q1 = new MinQueue();
         assertEquals(true, q1.enqueue(8));
     }
+
+    /**
+     * Dequeue on queue with elements
+     */
+    @Test
+    void testIntDequeueWithElements() {
+        MinQueue q1 = new MinQueue();
+        q1.enqueue(8);
+        q1.enqueue(3);
+        q1.enqueue(10);
+        q1.enqueue(2);
+        q1.enqueue(6);
+        assertEquals(Integer.valueOf(2),q1.dequeue());
+        assertEquals(Integer.valueOf(3),q1.dequeue());
+    }
+
+
+
+
 }
