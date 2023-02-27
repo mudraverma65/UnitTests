@@ -1,0 +1,19 @@
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+public class MinQueueTest {
+    /**
+     * Adding an integer in the queue
+     * */
+
+    /**
+     * This test checks if the Queue is empty
+     * if the queue is empty returns -1
+     */
+    @Test
+    void testIntEnqueue(){
+        MinQueue q1 = new MinQueue();
+        assertEquals(Integer.valueOf(-1), q1.dequeue());
+    }
+}
