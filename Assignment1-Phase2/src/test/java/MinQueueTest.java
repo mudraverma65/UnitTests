@@ -51,6 +51,21 @@ public class MinQueueTest {
         assertEquals(Integer.valueOf(-1),q1.top());
     }
 
+    /**
+     * Top to get next element
+     * */
+
+    @Test
+    void testTop(){
+        MinQueue q1 = new MinQueue();
+        q1.enqueue(8);
+        q1.enqueue(3);
+        q1.enqueue(10);
+        q1.enqueue(2);
+        q1.enqueue(6);
+        assertEquals(Integer.valueOf(3),q1.top()); //{8,3,10,2,6}
+    }
+
 
 
 
