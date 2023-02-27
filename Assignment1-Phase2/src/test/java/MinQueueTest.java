@@ -113,4 +113,21 @@ public class MinQueueTest {
         assertEquals(Integer.valueOf(10), q1.top());
     }
 
+    /**
+     * Removing first element and calling top
+     * */
+
+    @Test
+    void testHeadDequeue(){
+        MinQueue q1 = new MinQueue();
+        q1.enqueue(3);
+        q1.enqueue(8);
+        q1.enqueue(10);
+        q1.enqueue(7);
+        q1.enqueue(5);
+        assertEquals(Integer.valueOf(8),q1.top());
+        assertEquals(Integer.valueOf(3),q1.dequeue()); //{8,10,7,5}
+        assertEquals(Integer.valueOf(10),q1.top());
+    }
+
 }
